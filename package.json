@@ -1,5 +1,5 @@
 {
-  "name": "@semantic-release/gitlab",
+  "name": "@phpboyscout/semantic-release-gitlab",
   "description": "semantic-release plugin to publish a GitLab release",
   "version": "0.0.0-development",
   "author": "Pierre Vanduynslager (https://twitter.com/@pvdlg_)",
@@ -10,7 +10,7 @@
     ]
   },
   "bugs": {
-    "url": "https://github.com/semantic-release/gitlab/issues"
+    "url": "https://github.com/phpboyscout/semantic-release-gitlab/issues"
   },
   "contributors": [
     "Stephan Bönnemann <stephan@boennemann.me> (http://boennemann.me)",
