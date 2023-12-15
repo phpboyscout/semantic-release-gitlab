@@ -1,7 +1,7 @@
 {
   "name": "@phpboyscout/semantic-release-gitlab",
   "description": "semantic-release plugin to publish a GitLab release",
-  "version": "0.0.0-development",
+  "version": "0.0.3-development",
   "author": "Pierre Vanduynslager (https://twitter.com/@pvdlg_)",
   "type": "module",
   "ava": {
@@ -47,7 +47,7 @@
     "lib",
     "index.js"
   ],
-  "homepage": "https://github.com/semantic-release/gitlab#readme",
+  "homepage": "https://github.com/phpboyscout/semantic-release-gitlab/gitlab#readme",
   "keywords": [
     "git",
     "gitlab",
@@ -80,11 +80,11 @@
   },
   "publishConfig": {
     "access": "public",
-    "provenance": true
+    "provenance": false
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/semantic-release/gitlab.git"
+    "url": "git+https://github.com/phpboyscout/semantic-release-gitlab.git"
   },
   "scripts": {
     "lint": "prettier --check \"*.{js,json,md}\" \".github/**/*.{md,yml}\" \"{bin,lib,test}/*.js\"",
@@ -94,7 +94,7 @@
   },
   "renovate": {
     "extends": [
-      "github>semantic-release/.github"
+      "github>phpboyscout/.github"
     ]
   }
 }
